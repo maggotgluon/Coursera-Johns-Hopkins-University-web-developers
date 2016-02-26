@@ -1,0 +1,36 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  background-color: pink;
+}
+*{
+  font-family: sans-serif;
+}
+
+.title{
+  color: pink;
+}
+.bg-red{
+  background-color: pink;
+}
+
+.bg-green{
+  background-color: lightgreen;
+}
+
+.bg-blue{
+  background-color: lightblue;
+}
+@media (max-width: @screen-xs-max) {
+  body{
+    background-color: black;
+  }
+}
+.jumbotron{
+  padding: 20%;
+  margin: 10%;
+}
+.row{
+  height: 700px;
+  
+}
