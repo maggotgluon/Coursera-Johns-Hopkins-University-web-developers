@@ -1,36 +1,52 @@
 body {
   min-height: 2000px;
   padding-top: 70px;
-  background-color: pink;
 }
 *{
   font-family: sans-serif;
 }
 
+
 .title{
-  color: pink;
+  color: black;
 }
-.bg-red{
-  background-color: pink;
-}
-
-.bg-green{
-  background-color: lightgreen;
+.bg-red:hover{
+  background-color: pink !important;
 }
 
-.bg-blue{
-  background-color: lightblue;
+.bg-green:hover{
+  background-color: lightgreen !important;
 }
-@media (max-width: @screen-xs-max) {
-  body{
-    background-color: black;
-  }
+
+.bg-blue:hover{
+  background-color: lightblue!important;
 }
-.jumbotron{
-  padding: 20%;
-  margin: 10%;
+
+.col-xs-12{
+  background-color: lightgray;
+	text-align: justify;
+  padding: 10px;
+  margin: 10px;
 }
-.row{
-  height: 700px;
-  
+
+.navbar-default{
+  background-color: #424242 !important;
+}
+.navbar-default .navbar-brand{
+  color: white !important;
+
+}
+.navbar{
+	border:0px;
+	border-radius: 0px;
+}
+
+.navbar-nav {
+  margin: 0.5px -15px;}
+
+.navbar-nav li{
+	display: none;
+}
+.navbar-collapse{
+  background-color: white;
 }
